@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+- Install Docker from [here](https://docs.docker.com/get-docker)
+- After installation is completed, check if Docker is running the following commands in the terminal: `docker -v` and `docker-compose -v` .
+- Then run `docker-compose up` from the root of the project to start the application.
+- To test if the application is working accordingly, open the given URL [http://localhost:3000/api/ping](http://localhost:3000/api/ping) in the browser.
+- Finally, create a new user on [http://localhost:3001/register](http://localhost:3001/register) and you are good to go.
